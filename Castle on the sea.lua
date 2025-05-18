@@ -1,3 +1,5 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Efield44444235364/Test/refs/heads/main/Byapss%20Castle%20on%20tye%20sea.lua"))()
+wait()
 local Pos = CFrame.new(-5116.27246, 316.354218, -3176.95435) -- เป้าหมาย
 
 local function WaitHRP(plr)

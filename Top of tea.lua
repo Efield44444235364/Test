@@ -1,4 +1,4 @@
-local Pos = CFrame.new(-5116.27246, 316.354218, -3176.95435) -- เป้าหมาย
+local Pos = CFrame.new(2947.556884765625, 2281.630615234375, -7213.54931640625) -- เป้าหมาย
 
 local function WaitHRP(plr)
     local char = plr.Character or plr.CharacterAdded:Wait()

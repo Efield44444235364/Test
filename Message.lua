@@ -183,6 +183,13 @@ do
 
     Options.MyToggle:SetValue(false)
 
+    local Toggle = Tabs.Main:AddToggle("Temple", {Title = "Auto Optimize Temple of time", Default = false })
+    Toggle:OnChanged(function()
+        print("load")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Efield44444235364/Roblox/refs/heads/main/Temple%20of%20time%20optimize.lua"))()
+    end)
+
+    Options.Temple:SetValue(false)
 
 
 
@@ -425,5 +432,3 @@ Fluent:Notify({
 
 SaveManager:LoadAutoloadConfig()
 
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Efield44444235364/Roblox/refs/heads/main/Temple%20of%20time%20optimize.lua"))()

@@ -1,3 +1,4 @@
+print("loading....")
 --Function
 
 
@@ -423,3 +424,6 @@ Fluent:Notify({
 })
 
 SaveManager:LoadAutoloadConfig()
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Efield44444235364/Roblox/refs/heads/main/Temple%20of%20time%20optimize.lua"))()

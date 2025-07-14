@@ -183,6 +183,8 @@ do
 
     Options.MyToggle:SetValue(false)
 
+    local section = Tabs.Main:AddSection("FPS")
+    
     local Toggle = Tabs.Main:AddToggle("Temple", {Title = "Auto Optimize Temple of time", Default = false })
     Toggle:OnChanged(function()
         print("load")
